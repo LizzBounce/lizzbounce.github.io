@@ -252,7 +252,7 @@ AutoGapple Reset false
 AutoGapple C03PacketPlayer 32
 AutoGapple Health 16
 AutoGapple AutoGapple true
-AutoGapple toggle true
+AutoGapple toggle false
 AutoGapple bind H
 AutoL OnlyInGame true
 AutoL Hide false
@@ -1507,8 +1507,8 @@ ProjectileAimbot Egg true
 ProjectileAimbot Snowball true
 ProjectileAimbot EnderPearl false
 ProjectileAimbot OtherItems false
-ProjectileAimbot Range 10.0
-ProjectileAimbot ThroughWalls false
+ProjectileAimbot Range 30.0
+ProjectileAimbot ThroughWalls true
 ProjectileAimbot ThroughWallsRange 30.0
 ProjectileAimbot Priority Direction
 ProjectileAimbot GravityType None
@@ -1537,7 +1537,7 @@ ProjectileAimbot PitchRandomizationChance 0.8..1.0
 ProjectileAimbot PitchRandomizationRange 5.0..10.0
 ProjectileAimbot HighestBodyPointToTarget Head
 ProjectileAimbot LowestBodyPointToTarget Feet
-ProjectileAimbot HorizontalBodySearchRange 0.4967742..0.4967742
+ProjectileAimbot HorizontalBodySearchRange 0.12727273..0.8451613
 ProjectileAimbot Mark true
 ProjectileAimbot toggle true
 ProjectileAimbot bind NONE
@@ -1645,7 +1645,7 @@ Scaffold GodBridgePitch 73.5
 Scaffold Autojump false
 Scaffold JumpAutomatically true
 Scaffold BlocksToJumpRange 4..4
-Scaffold StartHorizontally true
+Scaffold StartHorizontally false
 Scaffold HorizontalPlacementsRange 1..1
 Scaffold VerticalPlacementsRange 1..1
 Scaffold JumpTicksRange 0..0
@@ -2058,7 +2058,7 @@ TickBase bind NONE
 Timer Hide false
 Timer Reset false
 Timer Mode Always
-Timer Speed 2.0
+Timer Speed 10.0
 Timer toggle false
 Timer bind NONE
 TimerRange OnlyInGame true
@@ -2135,7 +2135,7 @@ Velocity WaterCheck false
 Velocity FallCheck false
 Velocity ConsumableCheck false
 Velocity Ray cast false
-Velocity Debug false
+Velocity Debug true
 Velocity toggle true
 Velocity bind NONE
 VelocityBalancer OnlyInGame true
